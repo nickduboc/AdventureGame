@@ -17,6 +17,6 @@ let location = "village";
 let gameRunning = true;
 let inventory = [];
 //Ask name
-playerName = readline.question("What is your name? ");
-console.log("Hello, " + playerName);
+playerName = readline.question("\nWhat is your name? ");
+console.log("\nHello, " + playerName + "!");
 console.log("You have " + gold + " gold");
